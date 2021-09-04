@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html <!DOCTYPE html>
+  <html lang="en" dir="ltr">
+    <head>
+      <meta charset="UTF-8">
+      <link rel="stylesheet" href="transact.css">
+      <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     </head>
+  <body>
+    <div class="sidebar close">
+      <div class="logo-details">
+        <i class='bx bxl-bitcoin'></i>
+        <span class="logo_name">Money Manager</span>
+      </div>
+      <ul class="nav-links">
+  
+        <li>
+          <a href="income.html">
+            <i class='bx bxs-dashboard'></i>
+            <span class="link_name">Dashboard</span>
+          </a>
+          <ul class="sub-menu blank">
+            <li><a class="link_name" href="#">Dashboard</a></li>
+          </ul>
+        </li>
+        <li>
+  
+        <li>
+          <a href="income.html">
+            <i class='bx bx-italic'></i>
+            <span class="link_name">Income</span>
+          </a>
+          <ul class="sub-menu blank">
+            <li><a class="link_name" href="#">Income</a></li>
+          </ul>
+        </li>
+        <li>
+          <div class="iocn-link">
+            <a href="exp.html">
+              <i class='bx bxs-data'></i>
+              <span class="link_name">Expenses</span>
+            </a>
+          </div>
+          <ul class="sub-menu">
+            <li><a class="link_name" href="exp.html">Expenses</a></li>
+          </ul>
+        </li>
+        <li>
+          <div class="iocn-link">
+            <a href="budget.html">
+              <i class='bx bxs-component'></i>
+              <span class="link_name">Budget</span>
+            </a>
+  
+          </div>
+          <ul class="sub-menu">
+            <li><a class="link_name" href="budget.html">Budget</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="viewtransac.html">
+            <i class='bx bx-transfer-alt'></i>
+            <span class="link_name">Transactions</span>
+          </a>
+          <ul class="sub-menu blank">
+            <li><a class="link_name" href="#">Transactions</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="account.html">
+            <i class='bx bx-rupee'></i>
+            <span class="link_name">Account</span>
+          </a>
+          <ul class="sub-menu blank">
+            <li><a class="link_name" href="account.html">Account</a></li>
+          </ul>
+        </li>
+        <li>
+          <div class="iocn-link">
+            <a href="MMM.html">
+              <i class='bx bxs-doughnut-chart' ></i>
+              <span class="link_name">Chart</span>
+            </a>
+            <!-- <i class='bx bxs-chevron-down arrow' ></i> -->
+          </div>
+          <ul class="sub-menu">
+            <li><a class="link_name" href="MMM.html">Chart</a></li>
+            <!-- <li><a href="#">Categories</a></li>
+            <li><a href="#">Time(Future)</a></li>
+            <li><a href="#">Forecasts</a></li> -->
+          </ul>
+        </li>
+  
+        <li>
+          <a href="income.html">
+            <i class='bx bxs-help-circle' ></i>
+            <span class="link_name">Help</span>
+          </a>
+          <ul class="sub-menu blank">
+            <li><a class="link_name" href="#">Help</a></li>
+          </ul>
+        </li>
+        <li>
+          
+        <li>
+      <div class="profile-details">
+        <div class="profile-content">
+          <!--<img src="image/profile.jpg" alt="profileImg">-->
+          <i class='bx bxs-user-circle'></i>
+        </div>
+        <div class="name-job">
+          <div class="profile_name">Username</div>
+          <div class="job">programmer</div>
+        </div>
+        <i class='bx bx-log-out' ></i>
+      </div>
+    </li>
+  </ul>
+    </div>
+    <section class="home-section">
+      <div class="home-content">
+        <i class='bx bx-menu' ></i>
+        <span class="text">Transaction</span>
+        
+      </div>
+      <section >
+        </div>
+        </div>
+      </section>
+      <a href="viewtransac.html" style="text-decoration: none; "><button type="button" class="bn1">
+        <span class="bn__text" >BACK</span>
+        
+          
+        </span>
+      </button>
+    </a>
+        <div class="card1">
+          <form name="myForm"  onsubmit="return validateForm()" method="post">
+                    <div class="form-field"><label class="lbl" for="dat">Date:</label>
+                    <input type="date"  id="ContactDate" name="contactDate" placeholder="Your Name" class="full-wid1"></div>
+                    <br>
+                    <div class="form-field"><label class="lbl">Payee:</label><input name="PayeeName" type="text" id="contactName"
+                            placeholder="Payee Name" class="full-width" required></div>
+                    <br>
+                    <div class="form-field"><label class="lbl">Amount:</label><input name="contactamt" type="text" id="contactamt"
+                            placeholder="Enter Amount" class="full-width" required></div>
+                    <br>
+                    <div class="form-field"><label class="lbl">Account_Number:</label><input name="contactaccount" type="text" id="contactaccount"
+                            placeholder="Enter account number" class="full-width" required></div>
+                    <br>
+                    <div class="form-field"><label class="lbl">Add notes:</label><textarea name="contactMessage" id="contactMessage"
+                            placeholder="Your Message" rows="5" cols="25" class="full-width" required></textarea></div>
+                    <br><br><br><br>
+                    <div class="form-field"> <button class="full-wid ">Submit</div>
+                    </form>
+        </div>
+    </section>
+    </section>
+  
+ <script src="transact.js">
+ 
+ </script>
+
+</body>
+</html>

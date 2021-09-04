@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<!-- Created by CodingLab |www.youtube.com/CodingLabYT-->
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <!--<title> Drop Down Sidebar Menu | CodingLab </title>-->
+    <link rel="stylesheet" href="side.css">
+    <!-- Boxiocns CDN Link -->
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   </head>
+<body>
+  <div class="sidebar close">
+    <div class="logo-details">
+      <i class='bx bxl-bitcoin'></i>
+      <span class="logo_name">Money Manager</span>
+    </div>
+    <ul class="nav-links">
+      <li>
+        <a href="side.html">
+          <i class='bx bxs-dashboard'></i>
+          <span class="link_name">Dashboard</span>
+        </a>
+        <ul class="sub-menu blank">
+          <li><a class="link_name" href="#">Dashboard</a></li>
+        </ul>
+      </li>
+      <li>
+      <li>
+        <a href="income.html">
+          <i class='bx bx-italic'></i>
+          <span class="link_name">Income</span>
+        </a>
+        <ul class="sub-menu blank">
+          <li><a class="link_name" href="#">Income</a></li>
+        </ul>
+      </li>
+      <li>
+        <div class="iocn-link">
+          <a href="exp.html">
+            <i class='bx bxs-data'></i>
+            <span class="link_name">Expenses</span>
+          </a>
+        </div>
+        <ul class="sub-menu">
+          <li><a class="link_name" href="#">Expenses</a></li>
+        </ul>
+      </li>
+      <li>
+        <div class="iocn-link">
+          <a href="budget.html">
+            <i class='bx bxs-component'></i>
+            <span class="link_name">Budget</span>
+          </a>
+        </div>
+        <ul class="sub-menu">
+          <li><a class="link_name" href="#">Budget</a></li>
+        </ul>
+      </li>
+      <li>
+        <a href="viewtransac.html">
+          <i class='bx bx-transfer-alt'></i>
+          <span class="link_name">Transactions</span>
+        </a>
+        <ul class="sub-menu blank">
+          <li><a class="link_name" href="#">Transactions</a></li>
+        </ul>
+      </li>
+      <li>
+        <a href="account.html">
+          <i class='bx bx-rupee'></i>
+          <span class="link_name">Account</span>
+        </a>
+        <ul class="sub-menu blank">
+          <li><a class="link_name" href="#">Account</a></li>
+        </ul>
+      </li>
+      <li>
+        <div class="iocn-link">
+          <a href="MMM.html">
+            <i class='bx bxs-doughnut-chart'></i>
+            <span class="link_name">Chart</span>
+          </a>
+        </div>
+        <ul class="sub-menu">
+          <li><a class="link_name" href="#">Chart</a></li>
+        </ul>
+      </li>
+      <li>
+        <a href="help.html">
+          <i class='bx bxs-help-circle'></i>
+          <span class="link_name">Help</span>
+        </a>
+        <ul class="sub-menu blank">
+          <li><a class="link_name" href="#">Help</a></li>
+        </ul>
+      </li>
+      <li>
+      <li>
+        <div class="profile-details">
+          <div class="profile-content">
+            <i class='bx bxs-user-circle'></i>
+          </div>
+          <div class="name-job">
+            <div class="profile_name">Username</div>
+            <div class="job">programmer</div>
+          </div>
+          <a href="home.html"><i class='bx bx-log-out'></i></a>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <section class="home-section">
+    <div class="home-content">
+      <i class='bx bx-menu' ></i>
+      <span class="text">DashBoard</span>
+    </div>
+    <div class="content">
+      <div class="cards">
+          <div class="card">
+              <div class="box">
+                  <h1>₹ 20,000</h1>
+                  <a href="income.html"><h3>INCOME</h3></a>
+              </div>
+              <div class="icon-cls">
+                  <img src="profit (2).png" alt="">
+              </div>
+          </div>
+          <div class="card">
+            <div class="box">
+                <h1>₹ 8,000</h1>
+                <a href="exp.html"><h3>EXPENSE</h3></a>
+            </div>
+            <div class="icon-cls">
+                <img src="expenses.png" alt="">
+            </div>
+        </div>
+        <div class="card">
+            <div class="box">
+                <h1>₹ 15,000</h1>
+                <a href="budget.html"><h3>BUDGET</h3></a>
+            </div>
+            <div class="icon-cls">
+                <img src="budget.png" alt="">
+            </div>
+        </div>
+        <div class="card">
+            <div class="box">
+                <h1>₹ 40,000</h1>
+                <a href="account.html"> <h3>BALANCE</h3></a>
+            </div>
+            <div class="icon-cls">
+                <img src="balance (1).png" alt="">
+            </div>
+        </div>
+    </div>
+    <div class="content1">
+      <div class="payment">
+          <div class="title">
+              <h2>PAYMENT HISTORY</h2>
+              <a href="viewtransac.html" class="btn"> View All</a>
+          </div>
+          <table>
+            <tr>
+              <th>ACTIVITY</th>
+              <th>DATE</th>
+              <th>AMOUNT</th>
+            </tr>
+            <tr>
+              <td>Petrol</td>
+              <td>8/02/20</td>
+              <td id="r1">-₹1000</td>
+            </tr>
+            <tr>
+              <td>Monthly Salary</td>
+              <td>30/01/20</td>
+              <td id="g1">+₹20000</td>
+            </tr>
+            <tr>
+              <td>Grocery</td>
+              <td>26/01/20</td>
+              <td id="r1">-₹500</td>
+            </tr>
+            <tr>
+              <td>Arun</td>
+              <td>19/01/20</td>
+              <td id="g1">+₹500</td>
+            </tr>
+          </table>
+      </div>
+      <div class="piechart">
+        <div class="pie">
+          <h4 id=p1>30%</h4>
+          <h4 id=p2>70%</h4>
+          <div class="inner">
+            <div class="red"></div>
+            <div id="in"><h5>Income</h5></div>
+          <div class="green"></div>
+          <div id="exp"><h5>Expense</h5></div>
+      </div>
+          </div>
+      </div>
+  </div>
+    </div>
+    <div class="balance">
+      <div class="bal1">
+
+      </div>
+    </div>
+    <div class="cont">
+      <h1>Balance-Last 5 days</h1>
+      <div class="box1">
+        <div class="skill">
+          <div class="graph" style="height: 80%">
+            <div class="percent">₹20,000</div>
+          </div>
+          <div class="name">Jan-20</div>
+        </div>
+          <div class="skill">
+          <div class="graph" style="height: 90%">
+            <div class="percent">₹30,000</div>
+          </div>
+          <div class="name">Jan-21</div>
+        </div>
+          <div class="skill">
+          <div class="graph" style="height: 57%">
+            <div class="percent">₹14,000</div>
+          </div>
+          <div class="name">Jan-22</div>
+        </div>
+          <div class="skill">
+          <div class="graph" style="height: 85%">
+            <div class="percent">₹28,000</div>
+          </div>
+          <div class="name">Jan-23</div>
+        </div>
+          <div class="skill">
+          <div class="graph" style="height: 70%">
+            <div class="percent">₹16,000</div>
+          </div>
+          <div class="name">Jan-24</div>
+        </div>
+      </div>
+    </div>
+    <div class="main">
+      <div class="header">
+          <div class="nav">
+              <div class="user">
+                  <img src="notification-bell.png" alt=" " id="img">
+                  <div class="userimg">
+                  <img src="user.png" alt=" ">
+                  </div> 
+    
+              </div>
+          </div>
+      </div>
+  </section>
+  <script src="side.js"></script>
+</body>
+</html>
