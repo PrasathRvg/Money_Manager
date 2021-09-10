@@ -24,3 +24,12 @@ function fn1() {
     window.open('barchart.html',"_self");
 }
 	
+function fn2() {
+  var fc1 = document.getElementById('fc1');
+  var fc2 = document.getElementById('fc2');
+
+  if (fc1.checked == true)
+    window.open('frdaybr.html',"_self");
+  else if (fc2.checked == true)
+    window.open('frbarchart.html',"_self");
+}
